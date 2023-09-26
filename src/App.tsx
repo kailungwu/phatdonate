@@ -4,6 +4,7 @@ import discord from "./assets/discord.svg";
 import logo from "./assets/logo.jpg";
 import vcbqr from "./assets/vcbqr.jpeg";
 import yt from "./assets/yt.svg";
+import bg from "./assets/waallpaper.webp";
 
 import { useState } from "react";
 import pld from "./assets/pld.png";
@@ -29,11 +30,16 @@ function App() {
     >
       <Card
         style={{
-          minWidth: "768px",
+          minWidth: "20wh",
+          maxWidth: "40wh",
           display: "flex",
           justifyContent: "center",
           alignItems: "center",
-          // alignItems: "center",}}>
+          backgroundImage: `url(${bg})`,
+          backgroundPosition: "top",
+          backgroundSize: "cover",
+          // backgroundPositionX: 30,
+          // filter: "blur",
         }}
       >
         <Space

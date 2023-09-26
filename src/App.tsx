@@ -25,13 +25,14 @@ function App() {
         display: "flex",
         justifyContent: "center",
         // alignItems: "center",
-        height: "calc(100vh - 200px)",
+        height: "calc(100vh - 50px)",
+        // minWidth: "500px",
       }}
     >
       <Card
         style={{
-          minWidth: "20wh",
-          maxWidth: "40wh",
+          // maxWidth: "40wh",
+          minWidth: "600px",
           display: "flex",
           justifyContent: "center",
           alignItems: "center",
